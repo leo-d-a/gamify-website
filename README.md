@@ -19,7 +19,7 @@ user {
   password string
   purse number
 }
-users ||--o{ tasks: have
+user ||--o{ task: have
 
 task {
   id string PK
