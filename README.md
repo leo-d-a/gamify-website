@@ -12,22 +12,18 @@ Application to improve its users' life by gamifying their goals and tasks.
 ```mermaid
 erDiagram
 
-user {
-  id string PK
+players {
+  id string PK,FK
   username string
-  email string
-  password string
-  purse number
 }
-user ||--o{ task: have
+players ||--o{ quests: have
 
-task {
+quests {
   id string PK
-  user_id string FK
+  player_id string FK
   title string
   description string
-  reward number
-  done boolean
+  xp number
 }
 ```
 
