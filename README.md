@@ -24,6 +24,7 @@ quests {
   title string
   description string
   xp number
+  done boolean
 }
 ```
 
