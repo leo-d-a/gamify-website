@@ -34,8 +34,8 @@ quests {
 
 ## Commit messages
 
-[FEAT] - new feature ||
-[CLEAN] - refactor ||
-[BUILD] - project dependancies ||
-[FIX] - fix a bug ||
+[FEAT] - new feature ||\
+[CLEAN] - refactor ||\
+[BUILD] - project dependancies ||\
+[FIX] - fix a bug ||\
 [BUG] - introduce a feature / refactor but with a bug (to avoid)
