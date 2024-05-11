@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <main>
       <ButtonAppBar />
+      {/* Note leo : Should have a different architecture w/ unique pages but simple base here // TO-DO later  */}
       <LoginForm />
       {/* <SignUpForm /> */}
     </main>
