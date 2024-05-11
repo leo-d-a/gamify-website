@@ -1,0 +1,14 @@
+.tab {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #13c4a3;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-color: #36f1cd;
+}
+
+.tab:hover {
+  background-color: #36f1cd;
+}
