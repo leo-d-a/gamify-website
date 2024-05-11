@@ -15,26 +15,16 @@ export default function SignUpForm() {
         Sign Up here!
       </Typography>
       <Box className={styles.input}>
-        <Typography
-          variant="overline"
-          className={styles.inputLabel}
-        >
-          Email
-        </Typography>
         <TextField
           variant="outlined"
+          label="Email"
           className={styles.inputField}
         />
       </Box>
       <Box className={styles.input}>
-        <Typography
-          variant="overline"
-          className={styles.inputLabel}
-        >
-          Password
-        </Typography>
         <TextField
           variant="outlined"
+          label="Password"
           type="password"
           className={styles.inputField}
         />

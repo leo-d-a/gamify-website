@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, TextField, Typography } from '@mui/material';
+import { Box, Button, Link, TextField, Typography } from '@mui/material';
 // import Paper from '@mui/material/Paper';
 
 import styles from './Form.module.css';
@@ -15,26 +15,16 @@ export default function LoginForm() {
         Login here!
       </Typography>
       <Box className={styles.input}>
-        <Typography
-          variant="overline"
-          className={styles.inputLabel}
-        >
-          Email
-        </Typography>
         <TextField
           variant="outlined"
+          label="Email"
           className={styles.inputField}
         />
       </Box>
       <Box className={styles.input}>
-        <Typography
-          variant="overline"
-          className={styles.inputLabel}
-        >
-          Password
-        </Typography>
         <TextField
           variant="outlined"
+          label="Password"
           type="password"
           className={styles.inputField}
         />
@@ -45,6 +35,7 @@ export default function LoginForm() {
       >
         Login
       </Button>
+      <Link></Link>
     </Box>
   );
 }
